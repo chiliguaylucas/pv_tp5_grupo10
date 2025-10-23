@@ -1,6 +1,9 @@
+import "../css/layout.css";
 import { Outlet } from 'react-router-dom';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import logoISH from '../img/LogoISH.png';
+
+
 function Layout (){
     return (
         <>
