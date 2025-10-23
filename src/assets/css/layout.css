@@ -1,0 +1,68 @@
+/* 🌌 Fondo general del sitio */
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #4ab2c0 0%, #526ec0 100%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+/* 🧭 Navbar */
+header .navbar {
+  background-color: #1e293b !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 10px 30px;
+}
+
+.navbar-brand img {
+  max-width: 120px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05);
+}
+
+/* Links de navegación */
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffce00 !important;
+  transform: translateY(-2px);
+}
+
+/* Página activa  */
+.navbar-nav .nav-link.active {
+  color: #ffce00 !important;
+  font-weight: 600;
+}
+
+/* 🧩 Contenedor principal */
+main {
+  flex: 1;
+  min-height: calc(100vh - 90px);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    max-width: 100px;
+  }
+
+  main {
+    padding: 20px 10px;
+  }
+}
