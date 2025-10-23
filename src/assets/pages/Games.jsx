@@ -24,7 +24,8 @@ function Games (){
        <h1>🎯 Juegos</h1>
       <JuegoEstrellas />
        </div>
-        <h1><Link to="/">GAMES</Link></h1>
+        
+        <p>CLICK EN LA IMAGEN PARA PROBAR SONIDO</p>
         <img src={huevo} width="25%" onClick={manejarClickImagen} />
         <h1>Cargar Juegos</h1>
         <FormJuegos/>
